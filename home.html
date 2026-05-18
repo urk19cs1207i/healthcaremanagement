@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Management System</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <h1>Healthcare Management System</h1>
+
+
+    <h2>Doctors Details</h2>
+
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+
+        {% for doctor in doctors %}
+
+        <tr>
+            <td>{{ doctor.name }}</td>
+            <td>{{ doctor.specialization }}</td>
+            <td>{{ doctor.phone }}</td>
+            <td>{{ doctor.email }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+
+
+    <h2>Patients Details</h2>
+
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>City</th>
+            <th>Treatment</th>
+            <th>Consulting Doctor</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+
+        {% for patient in patients %}
+
+        <tr>
+            <td>{{ patient.name }}</td>
+            <td>{{ patient.date }}</td>
+            <td>{{ patient.city }}</td>
+            <td>{{ patient.treatment }}</td>
+            <td>{{ patient.consult_doctor }}</td>
+            <td>{{ patient.phone }}</td>
+            <td>{{ patient.email }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
+
