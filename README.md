@@ -1,10 +1,10 @@
-# 🏥 Healthcare API
+# Healthcare API
 
 A full-stack Healthcare API built with **Python**, **Django**, and **Django REST Framework (DRF)** to manage patient and doctor information. Supports full CRUD operations, session-based authentication, permissions, and displays data via Django frontend templates.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -25,7 +25,7 @@ The Healthcare API provides a robust backend system to manage healthcare data in
 
 ---
 
-## ✨ Features
+## Features
 
 - Full **CRUD** operations for Patients and Doctors
 - **Session-based Authentication** for secure access
@@ -37,7 +37,7 @@ The Healthcare API provides a robust backend system to manage healthcare data in
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer           | Technology                        |
 |-----------------|-----------------------------------|
@@ -50,7 +50,7 @@ The Healthcare API provides a robust backend system to manage healthcare data in
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 healthcare-api/
@@ -91,7 +91,7 @@ healthcare-api/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -142,27 +142,27 @@ healthcare-api/
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Patients
 
 | Method | Endpoint              | Description          | Auth Required |
 |--------|-----------------------|----------------------|---------------|
-| GET    | `/api/patients/`      | List all patients    | ✅ Yes        |
-| POST   | `/api/patients/`      | Create a patient     | ✅ Yes        |
-| GET    | `/api/patients/<id>/` | Retrieve a patient   | ✅ Yes        |
-| PUT    | `/api/patients/<id>/` | Update a patient     | ✅ Yes        |
-| DELETE | `/api/patients/<id>/` | Delete a patient     | ✅ Yes        |
+| GET    | `/api/patients/`      | List all patients    |    Yes        |
+| POST   | `/api/patients/`      | Create a patient     |    Yes        |
+| GET    | `/api/patients/<id>/` | Retrieve a patient   |    Yes        |
+| PUT    | `/api/patients/<id>/` | Update a patient     |    Yes        |
+| DELETE | `/api/patients/<id>/` | Delete a patient     |    Yes        |
 
 ### Doctors
 
 | Method | Endpoint             | Description         | Auth Required |
 |--------|----------------------|---------------------|---------------|
-| GET    | `/api/doctors/`      | List all doctors    | ✅ Yes        |
-| POST   | `/api/doctors/`      | Create a doctor     | ✅ Yes        |
-| GET    | `/api/doctors/<id>/` | Retrieve a doctor   | ✅ Yes        |
-| PUT    | `/api/doctors/<id>/` | Update a doctor     | ✅ Yes        |
-| DELETE | `/api/doctors/<id>/` | Delete a doctor     | ✅ Yes        |
+| GET    | `/api/doctors/`      | List all doctors    |    Yes        |
+| POST   | `/api/doctors/`      | Create a doctor     |    Yes        |
+| GET    | `/api/doctors/<id>/` | Retrieve a doctor   |    Yes        |
+| PUT    | `/api/doctors/<id>/` | Update a doctor     |    Yes        |
+| DELETE | `/api/doctors/<id>/` | Delete a doctor     |    Yes        |
 
 ### Auth
 
@@ -175,7 +175,7 @@ healthcare-api/
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 This project uses **Django Session Authentication**.
 
@@ -190,7 +190,7 @@ To test with the DRF browsable API:
 
 ---
 
-## 🖥 Frontend
+## Frontend
 
 API data is rendered using **Django Templates** with HTML and CSS.
 
@@ -205,7 +205,7 @@ API data is rendered using **Django Templates** with HTML and CSS.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="932" height="440" alt="image" src="https://github.com/user-attachments/assets/79f1555a-3807-43bb-a5c4-2c23d6a5b148" />
 <img width="380" height="294" alt="image" src="https://github.com/user-attachments/assets/88078cba-8a46-49ab-b5da-9f553f095e05" />
@@ -217,15 +217,9 @@ API data is rendered using **Django Templates** with HTML and CSS.
 <img width="945" height="426" alt="image" src="https://github.com/user-attachments/assets/4b813c6d-ba81-4c30-b75c-08f8529fcd5b" />
 <img width="918" height="433" alt="image" src="https://github.com/user-attachments/assets/f88ff49d-c5ec-4397-b371-88c10fde1a8b" />
 
-
-
-
-
-
-
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a new branch: `git checkout -b feature/your-feature`
@@ -235,13 +229,13 @@ API data is rendered using **Django Templates** with HTML and CSS.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+## Author
 
 **Your Name**
 - GitHub: [urk19cs1207i](https://github.com/urk19cs1207i)
